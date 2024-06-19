@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="titre">Khadija Ben Abdelkader</div>
+        <div class="menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <section class="Home" id="Home">
+        <div class="Home-content">
+            <h2>Hello, I'm <span>Khadija Ben Abdelkader</span></h2>
+            <p>A computer science student who thrives on challenges
+                 and is eager to take advantage of any opportunity 
+                 that comes my way.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/khadija-ben-abdelkader-504087287/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Khadijabenabdelkader"><i class='bx bxl-github'></i></a>
+            </div>
+            <input type="button" value="Download CV" onclick="window.location.href='C:\\Users\\khadi\\OneDrive\\Bureau\\CodeAlpha_Portfolio\\cvanglais.pdf'">
+        </div>
+        <div class="Home-img">
+            <img src="C:\\Users\\khadi\\OneDrive\\Bureau\\CodeAlpha_Portfolio\\image.jpg" alt="Khadija Ben Abdelkader">
+        </div>    
+    </section>
+    <section class="Projects" id="Projects">
+        <div class="Project-container">
+            <img src="C:\\Users\\khadi\\OneDrive\\Bureau\\CodeAlpha_Portfolio\\project.jpg" alt="Project Image">
+            <p>A web-based application designed to automate the management of university 
+                clubs. The application includes advanced features for managing members,
+                 activities, administrators, and club presidents. The website is modern 
+                 and visually appealing.</p>
+            <input type="button" value="Show more" onclick="window.location.href='https://github.com/Khadijabenabdelkader/club-management-website'">
+        </div>
+    </section>
+    <section class="Skills" id="Skills">
+        <h1 class="heading"><span>My Skills</span></h1>
+        <div class="Skills-row">
+            <div class="Skills-column">
+                <div class="Skills-box">
+                    <div class="Skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>C <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Java <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Photoshop <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>55%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Contact" id="Contact">
+        <h1 class="heading"><span>Send me a message</span></h1>
+        <form >
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" id="nom" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="mailadr" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" id="Tel" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="mailsubj" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="textarea-field">
+                    <textarea id="message" cols="93" rows="12" placeholder="Your message" required></textarea>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="btn-box">
+                <button type="submit" class="btn" id="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 Khadija Ben Abdelkader | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icontop">
+            <a href="#"><i class='bx bx-arrow-to-top'></i></a>
+        </div>
+    </footer>
+</body>
+</html>
